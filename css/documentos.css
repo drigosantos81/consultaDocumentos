@@ -5,3 +5,15 @@
 .aparecer {
     display: block;
 }
+
+body {
+    background-color: chocolate !important;
+    width: 100%;
+    height: 100%;
+}
+
+.caixa {
+    background-color: white;
+    width: 50%;
+    height: 50%;
+}
