@@ -7,17 +7,25 @@
     <title>Documentos</title>
     <link rel="stylesheet" href="./css/documentos.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&amp;display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <div id="busca">
-        <input type="text" name="" placeholder="Digite o CPF..." id="inputCPF">
-        <button onclick="search()">Pesquisar</button>
-    </div>
-    <div id="resultado" class="ocultar">
-        <h3 id="tituloDocumentos"></h3>
-        <button onclick="back()">Voltar</button>
-    </div>
+    <header>
+        <div class="container space-top caixa">
+            <div id="busca">
+                <p>Consulta de documentos pelo CPF</p>
+                <input type="text" name="" placeholder="Digite o CPF..." id="inputCPF">
+                <button class="botao" onclick="search()">Pesquisar</button>
+            </div>
+            <div id="resultado" class="ocultar">
+                <h3 id="tituloDocumentos"></h3>
+                <button onclick="back()">Voltar</button>
+            </div>
+            
+        </div>
+    </header>
+    
     
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
