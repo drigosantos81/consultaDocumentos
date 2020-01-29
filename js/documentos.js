@@ -42,17 +42,6 @@ function listFiles(cpfValue) {
                 ul.appendChild(li);
             }).catch(function(error){
                 console.log(error);                
-            }).finally(function(){
-                // console.log('j',j);
-                // console.log('Nome', nomeArquivos[i]);
-                // console.log('Link', linksArquivos[i]);
-                // console.log('Nome', nomeArquivos[j]);
-                // console.log('Link', linksArquivos[j]);
-                // var ul = document.getElementById("list");
-                // var li = document.createElement("li");
-                // var listItem = '<a href="'+linksArquivos[j]+'" target="_blank">'+nomeArquivos[j]+'</a>'
-                // li.innerHTML = listItem;
-                // ul.appendChild(li);
             });
         }
     });
@@ -61,7 +50,6 @@ function listFiles(cpfValue) {
 function next(cpfValue) {
     document.getElementById('busca').setAttribute("class", "ocultar");
     document.getElementById('resultado').removeAttribute("class", "ocultar");
-    
 }
 
 function back() {
